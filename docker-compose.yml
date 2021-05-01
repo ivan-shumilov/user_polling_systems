@@ -1,0 +1,24 @@
+version: '3.5'
+
+services:
+  postgres:
+    container_name: polls_postgres
+    image: postgres:11.6
+    expose:
+      - "5432"
+
+  django: &django
+    build:
+      context: .
+      dockerfile: ./docker/django/Dockerfile
+    image: polls_django_local
+    depends_on:
+      - postgres
+    volumes:
+      - ./src:/app
+      - ./logs/django:/logs
+    env_file:
+      - ./docker/django/django.env
+    ports:
+      - "8000:8000"
+    command: /start

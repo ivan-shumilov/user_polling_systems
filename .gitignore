@@ -1,0 +1,6 @@
+*.pyc
+logs/
+env/*
+media/*
+.idea/*
+docker/django/django.env
