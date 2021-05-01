@@ -1,0 +1,29 @@
+[
+  {
+    "model": "polls.Question",
+    "pk": 1,
+    "fields": {
+      "poll": 1,
+      "question_text": "question1",
+      "question_type": "text"
+    }
+  },
+  {
+    "model": "polls.Question",
+    "pk": 2,
+    "fields": {
+      "poll": 2,
+      "question_text": "question2",
+      "question_type": "choice"
+    }
+  },
+  {
+    "model": "polls.Question",
+    "pk": 3,
+    "fields": {
+      "poll": 3,
+      "question_text": "question3",
+      "question_type": "multiple_choice"
+    }
+  }
+]

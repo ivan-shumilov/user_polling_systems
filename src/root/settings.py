@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'rest_framework_swagger',
     'rest_framework.authtoken',
 
-    'users'
+    'users',
+    'polls'
 ]
 
 MIDDLEWARE = [
@@ -79,6 +80,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'root.wsgi.application'
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ),
+    'PAGE_SIZE': 50
+}
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
