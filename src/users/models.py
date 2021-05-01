@@ -29,7 +29,6 @@ class UserManager(BaseUserManager):
 
 
 class User(AbstractBaseUser, PermissionsMixin):
-    name = models.EmailField(verbose_name=_('name'))
     email = models.EmailField(verbose_name=_('email'), unique=True)
     phone = models.CharField(verbose_name=_('phone'), max_length=256, null=True, blank=True)
 
