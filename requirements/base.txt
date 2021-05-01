@@ -21,3 +21,5 @@ PyYAML==5.3.1
 django-admin-sortable2
 django-constance
 django-picklefield
+django-rest-swagger
+drf-yasg
