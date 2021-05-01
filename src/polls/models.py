@@ -46,6 +46,7 @@ class Question(SortingField):
 class OptionTheQuestion(SortingField):
     question = models.ForeignKey(Question, verbose_name=_('question'), on_delete=models.CASCADE)
     option_text = models.TextField(verbose_name=_('option text'))
+    option_true = models.BooleanField(verbose_name=_('option true'), default=False)
 
     class Meta:
         verbose_name_plural = _('options the questions')

@@ -34,4 +34,4 @@ class AdminOptionTheQuestionSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = OptionTheQuestion
-        fields = ['id', 'question', 'option_text']
+        fields = ['id', 'question', 'option_text', 'option_true']

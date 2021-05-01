@@ -1,0 +1,47 @@
+[
+  {
+    "model": "polls.OptionTheQuestion",
+    "pk": 1,
+    "fields": {
+      "question": 2,
+      "option_text": "opinion1",
+      "option_true": true
+    }
+  },
+  {
+    "model": "polls.OptionTheQuestion",
+    "pk": 2,
+    "fields": {
+      "question": 2,
+      "option_text": "opinion2",
+      "option_true": false
+    }
+  },
+  {
+    "model": "polls.OptionTheQuestion",
+    "pk": 3,
+    "fields": {
+      "question": 3,
+      "option_text": "opinion1",
+      "option_true": false
+    }
+  },
+  {
+    "model": "polls.OptionTheQuestion",
+    "pk": 4,
+    "fields": {
+      "question": 3,
+      "option_text": "opinion2",
+      "option_true": true
+    }
+  },
+  {
+    "model": "polls.OptionTheQuestion",
+    "pk": 5,
+    "fields": {
+      "question": 3,
+      "option_text": "opinion3",
+      "option_true": true
+    }
+  }
+]
