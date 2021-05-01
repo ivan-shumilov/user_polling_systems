@@ -1,0 +1,32 @@
+[
+  {
+    "model": "polls.Poll",
+    "pk": 1,
+    "fields": {
+      "name": "Poll #1",
+      "description": "description poll #1 ..",
+      "date_start": "2021-01-01 11:11",
+      "date_finish": "2021-01-11 11:11"
+    }
+  },
+  {
+    "model": "polls.Poll",
+    "pk": 2,
+    "fields": {
+      "name": "Poll #2",
+      "description": "description poll #2 ..",
+      "date_start": "2021-02-01 11:11",
+      "date_finish": "2021-02-11 11:11"
+    }
+  },
+  {
+    "model": "polls.Poll",
+    "pk": 3,
+    "fields": {
+      "name": "Poll #3",
+      "description": "description poll #3 ..",
+      "date_start": "2021-03-01 11:11",
+      "date_finish": "2021-03-11 11:11"
+    }
+  }
+]

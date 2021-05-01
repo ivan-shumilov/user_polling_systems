@@ -21,6 +21,9 @@
 - python manage createsuperuser
 - http://localhost:8000/admin/authtoken/token/  create a token for the user
 
+## swagger (see endpoints API)
+http://localhost:8000/swagger/
+
 ## rus tests
 python manage.py test
 
