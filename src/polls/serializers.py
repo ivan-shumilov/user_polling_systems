@@ -2,7 +2,7 @@ from rest_framework import serializers
 from .models import Poll, Question, OptionTheQuestion
 
 
-class AdminPollSerializer(serializers.ModelSerializer):
+class PollSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Poll

@@ -344,6 +344,7 @@ class CreateOpinionTest(TestCase):
         response = client.post(reverse('admin_opinions-list'), data_opinion)
         self.assertEqual(response.status_code, 403)
 
+
 class DeleteOpinionTest(TestCase):
 
     def setUp(self):
